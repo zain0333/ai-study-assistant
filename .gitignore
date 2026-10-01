@@ -1,0 +1,8 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+request.json
+upload.json
+lambda.zip
+history.json
