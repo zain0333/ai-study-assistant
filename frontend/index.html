@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 
 <html lang="en">
 <head>
@@ -9,50 +9,49 @@
 </head>
 <body>
 
-```
 <div class="container">
-    <h1>📚 AI Study Assistant</h1>
+    <h1>AI Study Assistant</h1>
     <p class="subtitle">Ask questions about your study material</p>
 
-    <div class="card">
-        <label for="question">Your Question</label>
+<div class="card">
+    <label for="question">Your Question</label>
 
-        <textarea
-            id="question"
-            placeholder="Ask a question..."
-            rows="5"
-        ></textarea>
+    <textarea
+        id="question"
+        placeholder="Ask a question..."
+        rows="5"
+    ></textarea>
 
-        <button id="askButton">Ask AI</button>
+    <button id="askButton">Ask AI</button>
 
-        <div id="loading" class="loading hidden">
-            Thinking...
-        </div>
-
-        <div id="answer" class="answer"></div>
+    <div id="loading" class="loading hidden">
+        Thinking...
     </div>
 
-    <div class="card">
-        <h2>📄 Upload Study Document</h2>
+    <div id="answer" class="answer"></div>
+</div>
 
-        <input type="file" id="documentFile" accept=".txt">
+<div class="card">
+    <h2>Upload Study Document</h2>
 
-        <button id="uploadButton">Upload Document</button>
+    <input type="file" id="documentFile" accept=".txt">
 
-        <div id="uploadMessage"></div>
-    </div>
+    <button id="uploadButton">Upload Document</button>
 
-    <div class="card">
-        <h2>📖 Study History</h2>
+    <div id="uploadMessage"></div>
+</div>
 
-        <button id="historyButton">Load History</button>
+<div class="card">
+    <h2>Study History</h2>
 
-        <div id="history"></div>
-    </div>
+    <button id="historyButton">Load History</button>
+
+    <div id="history"></div>
+</div>
+
 </div>
 
 <script src="script.js"></script>
-```
 
 </body>
 </html>
